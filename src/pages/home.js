@@ -1,5 +1,9 @@
 import { useEffect } from "react";
-import { BannerContainer, HeaderContainer } from "../containers";
+import {
+  BannerContainer,
+  CasesContainer,
+  HeaderContainer,
+} from "../containers";
 
 export default function Home() {
   useEffect(() => {
@@ -10,6 +14,7 @@ export default function Home() {
     <>
       <HeaderContainer />
       <BannerContainer />
+      <CasesContainer />
     </>
   );
 }

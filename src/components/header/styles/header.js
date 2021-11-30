@@ -5,7 +5,7 @@ import { breakpoints, colors } from "../../../constants/theme";
 export const HeaderContainer = styled.div`
   position: fixed;
   width: 100%;
-  height: 132px;
+  height: 128px;
   z-index: 4;
   background: ${colors.whiteColor};
 
