@@ -11,6 +11,7 @@ export const HeaderContainer = styled.div`
 
   @media (max-width: ${breakpoints.phone}) {
     height: 96px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   }
 `;
 
